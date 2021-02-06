@@ -21,4 +21,4 @@ async def on_voice_state_update(member,before,after):
     if before.channel.id != after.channel.id:
         await channel.send(f"{member} 從{before.channel} 跳進了{after.channel}")
 
-bot.run('ODA3NTg1NjQ1Mzk1NzA1ODU2.YB6Ivg.FOFheanXn_jroOlaXj1SXs49vw4')
+bot.run('ODA3NTg1NjQ1Mzk1NzA1ODU2.YB6Ivg.cVSDGcBN7QAv7aSNndJb5VPNh40')
